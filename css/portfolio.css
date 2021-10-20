@@ -32,7 +32,12 @@
 
   margin-left: var(--gallery-gap-magin);
   margin-top: var(--gallery-gap-magin);
+  /* box-shadow: var(--card-shadow); */
+  border: 1px solid #eeeeee;
+}
 
+.gallery-item:hover,
+.gallery-item:active {
   box-shadow: var(--card-shadow);
 }
 
